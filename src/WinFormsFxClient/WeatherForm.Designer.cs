@@ -55,33 +55,33 @@ namespace WeatherWinFormsFx
             this.WeatherIcon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.WeatherIcon.ErrorImage = null;
             this.WeatherIcon.InitialImage = null;
-            this.WeatherIcon.Location = new System.Drawing.Point(43, 114);
+            this.WeatherIcon.Location = new System.Drawing.Point(38, 107);
             this.WeatherIcon.Margin = new System.Windows.Forms.Padding(4);
             this.WeatherIcon.Name = "WeatherIcon";
-            this.WeatherIcon.Size = new System.Drawing.Size(200, 111);
+            this.WeatherIcon.Size = new System.Drawing.Size(175, 104);
             this.WeatherIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.WeatherIcon.TabIndex = 0;
             this.WeatherIcon.TabStop = false;
             // 
             // Temperature
             // 
-            this.Temperature.Font = new System.Drawing.Font("Segoe UI", 92.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Temperature.Font = new System.Drawing.Font("Segoe UI", 92.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Temperature.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Temperature.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.Temperature.Location = new System.Drawing.Point(53, 49);
+            this.Temperature.Location = new System.Drawing.Point(46, 46);
             this.Temperature.Margin = new System.Windows.Forms.Padding(0);
             this.Temperature.Name = "Temperature";
-            this.Temperature.Size = new System.Drawing.Size(445, 177);
+            this.Temperature.Size = new System.Drawing.Size(389, 166);
             this.Temperature.TabIndex = 2;
-            this.Temperature.Text = "71";
+            this.Temperature.Text = "17";
             this.Temperature.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // GradLabel
             // 
             this.GradLabel.AutoSize = true;
-            this.GradLabel.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GradLabel.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.GradLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.GradLabel.Location = new System.Drawing.Point(448, 94);
+            this.GradLabel.Location = new System.Drawing.Point(392, 88);
             this.GradLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.GradLabel.Name = "GradLabel";
             this.GradLabel.Size = new System.Drawing.Size(23, 25);
@@ -91,9 +91,9 @@ namespace WeatherWinFormsFx
             // PressureLabel
             // 
             this.PressureLabel.AutoSize = true;
-            this.PressureLabel.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PressureLabel.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.PressureLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.PressureLabel.Location = new System.Drawing.Point(117, 386);
+            this.PressureLabel.Location = new System.Drawing.Point(102, 362);
             this.PressureLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.PressureLabel.Name = "PressureLabel";
             this.PressureLabel.Size = new System.Drawing.Size(84, 25);
@@ -104,9 +104,9 @@ namespace WeatherWinFormsFx
             // Pressure
             // 
             this.Pressure.AutoSize = true;
-            this.Pressure.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Pressure.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Pressure.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Pressure.Location = new System.Drawing.Point(245, 386);
+            this.Pressure.Location = new System.Drawing.Point(214, 362);
             this.Pressure.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Pressure.Name = "Pressure";
             this.Pressure.Size = new System.Drawing.Size(53, 25);
@@ -116,9 +116,9 @@ namespace WeatherWinFormsFx
             // Humidity
             // 
             this.Humidity.AutoSize = true;
-            this.Humidity.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Humidity.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Humidity.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Humidity.Location = new System.Drawing.Point(245, 433);
+            this.Humidity.Location = new System.Drawing.Point(214, 406);
             this.Humidity.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Humidity.Name = "Humidity";
             this.Humidity.Size = new System.Drawing.Size(53, 25);
@@ -128,9 +128,9 @@ namespace WeatherWinFormsFx
             // HumidityLabel
             // 
             this.HumidityLabel.AutoSize = true;
-            this.HumidityLabel.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HumidityLabel.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.HumidityLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.HumidityLabel.Location = new System.Drawing.Point(112, 433);
+            this.HumidityLabel.Location = new System.Drawing.Point(98, 406);
             this.HumidityLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.HumidityLabel.Name = "HumidityLabel";
             this.HumidityLabel.Size = new System.Drawing.Size(88, 25);
@@ -140,9 +140,9 @@ namespace WeatherWinFormsFx
             // Wind
             // 
             this.Wind.AutoSize = true;
-            this.Wind.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Wind.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Wind.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Wind.Location = new System.Drawing.Point(245, 482);
+            this.Wind.Location = new System.Drawing.Point(214, 452);
             this.Wind.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Wind.Name = "Wind";
             this.Wind.Size = new System.Drawing.Size(79, 25);
@@ -152,9 +152,9 @@ namespace WeatherWinFormsFx
             // WindLabel
             // 
             this.WindLabel.AutoSize = true;
-            this.WindLabel.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WindLabel.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.WindLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.WindLabel.Location = new System.Drawing.Point(80, 482);
+            this.WindLabel.Location = new System.Drawing.Point(70, 452);
             this.WindLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.WindLabel.Name = "WindLabel";
             this.WindLabel.Size = new System.Drawing.Size(112, 25);
@@ -163,12 +163,12 @@ namespace WeatherWinFormsFx
             // 
             // Updated
             // 
-            this.Updated.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Updated.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Updated.ForeColor = System.Drawing.Color.SpringGreen;
-            this.Updated.Location = new System.Drawing.Point(21, 286);
+            this.Updated.Location = new System.Drawing.Point(18, 268);
             this.Updated.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Updated.Name = "Updated";
-            this.Updated.Size = new System.Drawing.Size(437, 42);
+            this.Updated.Size = new System.Drawing.Size(382, 39);
             this.Updated.TabIndex = 11;
             this.Updated.Text = "Updated at 12:36:11 AM";
             this.Updated.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -176,40 +176,40 @@ namespace WeatherWinFormsFx
             // WeatherText
             // 
             this.WeatherText.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(68)))), ((int)(((byte)(128)))));
-            this.WeatherText.Font = new System.Drawing.Font("Segoe UI", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.WeatherText.Font = new System.Drawing.Font("Segoe UI", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.WeatherText.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.WeatherText.Location = new System.Drawing.Point(21, 217);
+            this.WeatherText.Location = new System.Drawing.Point(18, 203);
             this.WeatherText.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.WeatherText.Name = "WeatherText";
-            this.WeatherText.Size = new System.Drawing.Size(437, 62);
+            this.WeatherText.Size = new System.Drawing.Size(382, 58);
             this.WeatherText.TabIndex = 12;
-            this.WeatherText.Text = "Sunny";
+            this.WeatherText.Text = "Soleado";
             this.WeatherText.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label1
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.label1.BackColor = System.Drawing.Color.White;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(54)))), ((int)(((byte)(170)))));
-            this.label1.Location = new System.Drawing.Point(-12, 375);
+            this.label1.Location = new System.Drawing.Point(-10, 352);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(507, 47);
+            this.label1.Size = new System.Drawing.Size(444, 44);
             this.label1.TabIndex = 13;
             this.label1.Text = "Powered by .NET with 💜";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // City
             // 
-            this.City.Font = new System.Drawing.Font("Segoe UI", 27F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.City.Font = new System.Drawing.Font("Segoe UI", 27F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.City.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.City.Location = new System.Drawing.Point(21, 11);
+            this.City.Location = new System.Drawing.Point(18, 10);
             this.City.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.City.Name = "City";
-            this.City.Size = new System.Drawing.Size(437, 59);
+            this.City.Size = new System.Drawing.Size(382, 55);
             this.City.TabIndex = 14;
-            this.City.Text = "Redmond";
+            this.City.Text = "Asuncion";
             this.City.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // CollapseExpandButton
@@ -217,13 +217,13 @@ namespace WeatherWinFormsFx
             this.CollapseExpandButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.CollapseExpandButton.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(68)))), ((int)(((byte)(128)))));
             this.CollapseExpandButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CollapseExpandButton.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CollapseExpandButton.Font = new System.Drawing.Font("Segoe UI Symbol", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.CollapseExpandButton.ForeColor = System.Drawing.Color.White;
             this.CollapseExpandButton.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.CollapseExpandButton.Location = new System.Drawing.Point(-12, 336);
+            this.CollapseExpandButton.Location = new System.Drawing.Point(-10, 315);
             this.CollapseExpandButton.Margin = new System.Windows.Forms.Padding(4);
             this.CollapseExpandButton.Name = "CollapseExpandButton";
-            this.CollapseExpandButton.Size = new System.Drawing.Size(507, 41);
+            this.CollapseExpandButton.Size = new System.Drawing.Size(444, 38);
             this.CollapseExpandButton.TabIndex = 15;
             this.CollapseExpandButton.Text = "ꓦ";
             this.CollapseExpandButton.UseVisualStyleBackColor = true;
@@ -232,9 +232,9 @@ namespace WeatherWinFormsFx
             // UVIndex
             // 
             this.UVIndex.AutoSize = true;
-            this.UVIndex.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UVIndex.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.UVIndex.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.UVIndex.Location = new System.Drawing.Point(245, 532);
+            this.UVIndex.Location = new System.Drawing.Point(214, 499);
             this.UVIndex.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.UVIndex.Name = "UVIndex";
             this.UVIndex.Size = new System.Drawing.Size(22, 25);
@@ -244,9 +244,9 @@ namespace WeatherWinFormsFx
             // UVIndexLabel
             // 
             this.UVIndexLabel.AutoSize = true;
-            this.UVIndexLabel.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UVIndexLabel.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.UVIndexLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.UVIndexLabel.Location = new System.Drawing.Point(112, 532);
+            this.UVIndexLabel.Location = new System.Drawing.Point(98, 499);
             this.UVIndexLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.UVIndexLabel.Name = "UVIndexLabel";
             this.UVIndexLabel.Size = new System.Drawing.Size(88, 25);
@@ -255,10 +255,10 @@ namespace WeatherWinFormsFx
             // 
             // WeatherForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(68)))), ((int)(((byte)(128)))));
-            this.ClientSize = new System.Drawing.Size(484, 421);
+            this.ClientSize = new System.Drawing.Size(424, 395);
             this.Controls.Add(this.WeatherIcon);
             this.Controls.Add(this.UVIndex);
             this.Controls.Add(this.UVIndexLabel);
@@ -278,7 +278,7 @@ namespace WeatherWinFormsFx
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(500, 460);
+            this.MinimumSize = new System.Drawing.Size(440, 434);
             this.Name = "WeatherForm";
             this.Text = "Weather Now";
             ((System.ComponentModel.ISupportInitialize)(this.WeatherIcon)).EndInit();
