@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApi", "src\WeatherAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherClientLib", "src\WeatherClientLib\WeatherClientLib.csproj", "{9BE355A5-6964-49B5-8548-1D94E0C27902}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsClient", "src\WinFormsFxClient\WinFormsClient.csproj", "{5549BCD6-A213-463D-8E66-714001D974E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,6 +16,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{F23AE437-BC54-4BE0-B93E-E49805129467} = {C0B45753-8B19-456C-AADD-9C391ED4C1CA}
 		{9BE355A5-6964-49B5-8548-1D94E0C27902} = {C0B45753-8B19-456C-AADD-9C391ED4C1CA}
+		{5549BCD6-A213-463D-8E66-714001D974E1} = {C0B45753-8B19-456C-AADD-9C391ED4C1CA}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{F23AE437-BC54-4BE0-B93E-E49805129467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -24,5 +27,9 @@ Global
 		{9BE355A5-6964-49B5-8548-1D94E0C27902}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BE355A5-6964-49B5-8548-1D94E0C27902}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BE355A5-6964-49B5-8548-1D94E0C27902}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5549BCD6-A213-463D-8E66-714001D974E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5549BCD6-A213-463D-8E66-714001D974E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5549BCD6-A213-463D-8E66-714001D974E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5549BCD6-A213-463D-8E66-714001D974E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
