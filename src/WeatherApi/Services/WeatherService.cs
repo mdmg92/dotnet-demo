@@ -38,20 +38,20 @@ namespace Weather.Services
             {
                 return new WeatherResponse()
                 {
-                    WeatherText = "Sunny",
+                    WeatherText = "Soleado",
                     IsDayTime = true,
                     Pressure = 29.99f,
                     RelativeHumidity = 45,
                     RetrievedTime = Timestamp.FromDateTime(DateTime.UtcNow),
-                    Temperature = 57,
+                    Temperature = 17,
                     UvIndex = 2,
                     WeatherIcon = 1,
                     WeartherUri = "https://developer.accuweather.com/sites/default/files/01-s.png",
                     WindSpeed = 5.8f,
                     WindDirection = "SSE",
-                    Past6HourMax = 57,
-                    Past6HourMin = 42,
-                    Location = "Seattle"
+                    Past6HourMax = 18,
+                    Past6HourMin = 1,
+                    Location = "Asuncion"
                 };
             }
 
@@ -62,15 +62,15 @@ namespace Weather.Services
                 Pressure = forecast.Pressure.Imperial.Value,
                 RelativeHumidity = forecast.RelativeHumidity,
                 RetrievedTime = Timestamp.FromDateTime(DateTime.UtcNow),
-                Temperature = forecast.Temperature.Imperial.Value,
+                Temperature = forecast.Temperature.Metric.Value,
                 UvIndex = forecast.UVIndex,
                 WeatherIcon = forecast.WeatherIcon,
                 WeartherUri = $"https://developer.accuweather.com/sites/default/files/{forecast.WeatherIcon:D2}-s.png",
                 WindSpeed = forecast.Wind.Speed.Imperial.Value,
                 WindDirection = forecast.Wind.Direction.English,
-                Past6HourMax = forecast.TemperatureSummary.Past6HourRange.Maximum.Imperial.Value,
-                Past6HourMin = forecast.TemperatureSummary.Past6HourRange.Minimum.Imperial.Value,
-                Location = "Seattle"
+                Past6HourMax = forecast.TemperatureSummary.Past6HourRange.Maximum.Metric.Value,
+                Past6HourMin = forecast.TemperatureSummary.Past6HourRange.Minimum.Metric.Value,
+                Location = "Asuncion"
             };
         }
     }
