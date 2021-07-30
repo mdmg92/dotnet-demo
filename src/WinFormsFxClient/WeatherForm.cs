@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Configuration;
 using System.Threading;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using Grpc.Net.Client;
 using Weather;
@@ -23,15 +22,6 @@ namespace WeatherWinFormsFx
 
         private async void PollWeather()
         {
-            // var weather = await Task.Run(() => GetDummyData());
-            // UpdateForm(weather);
-
-            // To switch from using the dummy data to real gRPC service:
-            //  1. Port the application to .NET Core 3.
-            //  2. Add a reference to WeatherClientLib.
-            //  3. Remove two lines above, GetDummyData() method and WeatherResponse class from this file.
-            //  4. Uncomment the lines bellow add required usings.
-            //
             var client = new Weather.Weather.WeatherClient(GrpcChannel.ForAddress(serviceUrl));
             var weatherService = new GrpcWeatherForecastService(client);
 

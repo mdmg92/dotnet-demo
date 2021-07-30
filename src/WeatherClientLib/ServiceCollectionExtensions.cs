@@ -16,13 +16,5 @@ namespace WeatherClientLib
             services.AddScoped<IWeatherForecastService, GrpcWeatherForecastService>();
             return services;
         }
-
-        public static IServiceCollection AddHttpWeatherForecastService(
-            this IServiceCollection services, Action<HttpWeatherForecastServiceOptions> configure)
-        {
-            services.AddScoped<IWeatherForecastService, HttpWeatherForecastService>();
-            services.Configure(configure);
-            return services;
-        }
     }
 }
